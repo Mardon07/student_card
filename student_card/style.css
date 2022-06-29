@@ -1,0 +1,121 @@
+*{
+box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 790px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    
+}
+
+.section{
+    border: 1px solid #000;
+    margin-bottom: 35px;
+}
+
+.photo img{
+    background-color: brown;
+}
+.section_1{
+    display: flex;
+}
+.info div p{
+    margin: 0 0 3px 0;
+    line-height: 1;
+}
+.info div p:last-child{
+    margin: 0;
+}
+.info{
+    margin-left: 20px;
+}
+
+.info div{
+    padding-bottom: 10px;
+}
+.info div:last-child{
+    padding-bottom: 0;
+}
+h2{
+    text-align: center;
+}
+li::marker{
+    margin: 0;
+}
+
+.section_2 div{
+    margin-left: 20px;
+}
+.section_3{
+    align-items: center;
+}
+.numb{
+    display: flex;
+    justify-content: center;
+}
+
+.oclock{
+    margin-left: 30px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section_4{
+    padding: 0 150px 30px;
+}
+
+hr{
+    width: 440px;
+
+}
+.item p {
+    margin: 0;
+}
+
+.her{
+    padding: 0 15px 0 5px;
+}
+
+.item a{
+    color: #000;
+}
+.item2{
+    font-weight: 300;
+}
+
+i{
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+}
+.section_5{
+    padding: 0 150px 20px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contacts div p{
+    margin: 0;
+}
+
+.fa-instagram{
+    color: rgb(246 6 6);
+}
+
+.fa-github{
+    color: #000;
+}
